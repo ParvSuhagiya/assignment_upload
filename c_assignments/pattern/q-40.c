@@ -2,16 +2,21 @@
 
 int main(){
     int n=5;
-    for (int i = 1; i <= n; i++)
+
+    for (int i = 0; i < n*2; i+=2)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = n+1; j >= i; j-=2)
         {
-            if (i == n)
+        printf(" ");
+        }
+        for (int k = 0; k <= i; k++)
+        {
+            if (i == (n*2)-2)
             {
                 printf("*");
             }
             else{
-                if (j == 1 || j == i)
+                if (k == 0 || k == i)
                 {
                     printf("*");
                 }
@@ -19,9 +24,9 @@ int main(){
                     printf(" ");
                 }
             }
-            
-            
+
         }
+ 
         printf("\n");
     }
     
