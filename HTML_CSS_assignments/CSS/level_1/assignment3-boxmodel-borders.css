@@ -1,0 +1,39 @@
+body{
+    background-color: #f7f9fc;
+    color: #222;
+}
+
+.note, .subtitle{
+    color: grey;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.box1{
+    border: 3px solid #1e88e5;
+}
+.box2{
+    border: 4px dashed #4caf50;
+}
+.box3{
+    border: 2px dotted #f57c00;
+    border-radius: 12px;
+    margin: 8px 0 24px 12px;
+}
+
+.center-auto{
+    width: 60%;
+    
+    margin: 0 auto;
+}
+
+.center-flex-wrapper{
+    display:flex;
+    justify-content:center;
+
+}
