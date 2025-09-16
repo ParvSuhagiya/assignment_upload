@@ -9,9 +9,8 @@ int main(){
             if (j!=i)
             {
                 printf("%d", j);
-            }
-            
-            if (j==i)
+            } 
+            else if (j==i)
             {
                 for (int k = j; k > 0; k--)
                 {
