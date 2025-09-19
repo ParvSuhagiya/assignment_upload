@@ -1,16 +1,33 @@
 #include <stdio.h>
 
 int main(){
-    int n=5;
-    for (int i = 0; i < n*2; i+=2)
+    int n=4;
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 7; j >= i; j-=2)
+        for (int j = 0; j < n; j++)
         {
-            printf(" ");     
+            if (i+j+2 > n)
+            {
+                printf("*");     
+            }
+            else
+            {
+                printf(" ");     
+            }
+            
         }
-        for (int k = 0; k <= i; k++)
+        for (int j = 0; j < n-1; j++)
         {
-            printf("*");
+            if ((i-1)>=j)
+            {   
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+            
+
         }
         
         printf("\n");

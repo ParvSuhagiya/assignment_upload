@@ -2,15 +2,33 @@
 
 int main(){
     int n=5;
-    for (int i = 0; i < n*2; i+=2)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 7; j >= i; j-=2)
+        int a=1; 
+        for (int j = 0; j < n; j++)
         {
-            printf(" ");     
+            if (i+j+2 > n)
+            {
+                printf("%d", a++);     
+            }
+            else
+            {
+                printf(" ");     
+            }
+            
         }
-        for (int k = 1; k <= i+1; k++)
+        for (int j = 0; j < n-1; j++)
         {
-            printf("%d", k);
+            if ((i-1)>=j)
+            {   
+                printf("%d", a++);
+            }
+            else
+            {
+                printf(" ");
+            }
+            
+
         }
         
         printf("\n");
