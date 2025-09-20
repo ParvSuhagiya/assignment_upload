@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+        .main{
+
+            display: flex;
+            flex-wrap: wrap;
+            width: 270px;
+            height: 270px;
+
+            border: 1px solid black;
+        }
+        .box{
+            border: 1px solid black;
+            width: 33.333%;
+            height: 33.333%;
+            /* height: 90px; */
+            
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box-child-one{
+            width: 33.333%;
+            height: 33.333%;
+
+            border: 0.5px solid rgb(151, 151, 151);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box-green{
+            background-color: rgba(134, 255, 134, 0.616);
+        }
+    </style>
+</head>
+<body>
+    <div class="sudoku">
+        <div class="main">
+            <div class="box">
+                <div class="box-child-one">8</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">6</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">4</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">2</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+            </div>
+            <div class="box box-green">
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">3</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">1</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">8</div>
+                <div class="box-child-one">7</div>
+                <div class="box-child-one"></div>
+            </div>
+            <div class="box">
+                <div class="box-child-one"></div>
+                <div class="box-child-one">9</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">6</div>
+                <div class="box-child-one">8</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">5</div>
+            </div>
+            <div class="box box-green">
+                <div class="box-child-one">1</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">8</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">3</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">7</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">5</div>
+            </div>
+            <div class="box">
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">5</div>
+                <div class="box-child-one">1</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">3</div>
+                <div class="box-child-one"></div>
+            </div>
+            <div class="box box-green">
+                <div class="box-child-one"></div>
+                <div class="box-child-one">2</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">5</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">9</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+            </div>
+            <div class="box">
+                <div class="box-child-one"></div>
+                <div class="box-child-one">2</div>
+                <div class="box-child-one">1</div>
+                <div class="box-child-one">6</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">8</div>
+                <div class="box-child-one">7</div>
+            </div>
+            <div class="box box-green">
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">7</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">2</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">6</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">4</div>
+            </div>
+            <div class="box">
+                <div class="box-child-one"></div>
+                <div class="box-child-one">4</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one">8</div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+                <div class="box-child-one"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
