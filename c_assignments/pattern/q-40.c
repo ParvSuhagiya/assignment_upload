@@ -1,35 +1,42 @@
 #include <stdio.h>
 
 int main(){
+
     int n;
     scanf("%d", &n);
 
-    for (int i = 0; i < n*2; i+=2)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = n+1; j >= i; j-=2)
+        for (int j = n; j > i ; j--)
         {
-        printf(" ");
+            printf(" ");
         }
-        for (int k = 0; k <= i; k++)
+        for (int k = 1; k <= (2*i) - 1; k++)
         {
-            if (i == (n*2)-2)
+            if (i == n)
             {
                 printf("*");
             }
-            else{
-                if (k == 0 || k == i)
+            else
+            {
+                if (k == 1 || k == (2*i)-1)
                 {
                     printf("*");
                 }
-                else{
+                else
+                {
                     printf(" ");
                 }
             }
-
+            
+            
+            
         }
- 
         printf("\n");
+        
     }
     
+
     return 0;
 }
+

@@ -1,130 +1,53 @@
-// #include <stdio.h>
-
-// int main(){
-//     int n=5;
-
-//     for (int i = 0; i < n*2; i+=2)
-//     {
-//         for (int j = n+1; j >= i; j-=2)
-//         {
-//         printf(" ");
-//         }
-//         for (int k = 0; k <= i; k++)
-//         {
-//             if (i == (n*2)-2)
-//             {
-//                 printf("*");
-//             }
-//             else{
-//                 if (k == 0 || k == i)
-//                 {
-//                     printf("*");
-//                 }
-//                 else{
-//                     printf(" ");
-//                 }
-//             }
-
-//         }
- 
-//         printf("\n");
-//     }
-
-//     for (int i = n*2; i >= 0; i-=2)
-//     {
-//         for (int j = 0; j <= (n-i)+3; j+=2)
-//         {
-//         printf(" ");
-//         }
-//         for (int k = 0; k <= i; k++)
-//         {
-//             if (i == n*2)
-//             {
-//                 printf("*");
-//             }
-//             else
-//             {
-//                 if (k==0 || k == i)
-//                 {
-//                     printf("*");
-//                 }
-//                 else{
-//                     printf(" ");
-    
-//                 }    
-//             }
-//         }
- 
-//         printf("\n");
-//     }
-    
-//     return 0;
-// }
-
-
-// q54
-
 #include <stdio.h>
 
-int main()
-{
+int main(){
+
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
+
+    for (int i = 1; i < n; i++)
+    {
+        for (int j = n; j > i ; j--)
+        {
+            printf(" ");
+        }
+        for (int k = 1; k <= (2*i) - 1; k++)
+        {
+                if (k == 1 || k == (2*i)-1)
+                {
+                    printf("*");
+                }
+                else
+                {
+                    printf(" ");
+                }
+            
+        }
+        printf("\n");   
+    }
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1 ; j < i ; j++)
+        {
+            printf(" ");
+        }
+        for (int k = 1; k <= 2*(n-i)+1; k++)
+        {
+                if (k == 1 || k == 2*(n-i)+1 )
+                {
+                    
+                    printf("*");
+                }
+                else
+                {
+                    printf(" ");
+                }
+        }
+        printf("\n");
+    }
     
-    for(int i=1;i<=n;i++)
-    {
-        for(int j=1;j<=n;j++)
-        {
-            if(i+j==n+1)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
-        for(int j=n-1;j>=1;j--)
-        {
-            if(i+j==n+1)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
-        
-        printf("\n");
-    }
-    for(int i=n-1;i>=1;i--)
-    {
-        for(int j=1;j<=n;j++)
-        {
-            if(i+j==n+1)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
-        for(int j=n-1;j>=1;j--)
-        {
-            if(i+j==n+1)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
-        
-        printf("\n");
-    }
 
     return 0;
 }
+
