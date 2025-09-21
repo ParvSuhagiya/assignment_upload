@@ -11,7 +11,17 @@ int main(){
         }
         for (int k = 0; k <= i; k++)
         {
-            printf("%c", 65+k);
+            if (k == i)
+            {
+                for (int num = k; num >= 0; num--)
+                {
+                    printf("%c", 65+num);
+                }
+            }
+            else
+            {    
+                printf("%c", 65+k);
+            }
         }
         
         printf("\n");
