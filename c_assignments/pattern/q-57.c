@@ -1,36 +1,29 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int n;
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
+        int count=0;
         for (int j = 1; j <= n; j++)
         {
-            // if (i == 1 || i == n || j == 1 || j == n)
-            // {
-            //     printf("1");
-            // }
-            for (int p = 0; p < n/2; p++)
-            {
-                if (i == p+1 || i == n-p || j == p+1 || j == n-p)
-                {
-                    printf("%d", p);
-                }
-            }
-            
-            // else if (i == 3 && j == 3)
-            // {
-            //     printf("3");
-            // }
-            
-            
-            
-            // printf("*");
+            count++;
+          if (j >= i || i == n-count || (i == count && j == 1 ) || (i == count && j == 2) || (i == count && j == 3) || (i == count && j == 4) || (i == count && j == 5))
+          {
+            printf("ds");
+          }
+          else
+          {
+            printf("*");
+          }
+          
+          
         }
         printf("\n");
     }
-    
+
     return 0;
 }
 
