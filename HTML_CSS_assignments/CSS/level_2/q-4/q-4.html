@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .main-container{
+            width: 300px;
+            margin: auto;
+            
+        }
+        .upper{
+            display: flex;
+            
+        }
+        .one-u{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+
+            width: 120px;
+            height: 120px;
+        }
+        .white{
+            background-color: white;
+            width: 95%;
+            height: 95%;
+        }
+        .three-u{
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            padding: 20px;
+
+            width: 120px;
+            height: 120px;
+        }
+        .one-u{
+            flex-grow: 2;
+        }
+        .two-u{
+            display: flex;
+            flex-wrap: wrap;
+
+            width: 60px;
+        }
+        .three-u{
+            flex-grow: 2;
+        }
+        .box{
+            width: 20px;
+            height: 20px;
+
+            border: 1px solid black;
+        }
+        .middle{
+            display: flex;
+            padding: 0;
+        }
+        
+        .one-m{
+            display: flex;
+            flex-wrap: wrap;
+            width: 120px;
+            height: 60px;
+            /* box-sizing: border-box; */
+            
+
+            /* border:  1px solid; */
+        }
+        .two-m{
+            width: 60px;
+            height: 60px;
+            /* border:  1px solid; */
+        }
+        .three-m{
+            display: flex;
+            flex-wrap: wrap;
+            width: 120px;
+            height: 60px;
+            /* box-sizing: border-box; */
+            
+    
+            /* border:  1px solid; */
+        }
+        .lower{
+            display: flex;
+        }
+        .one-l{
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+
+            width: 120px;
+            height: 120px;
+        }
+        .two-l{
+            display: flex;
+            flex-wrap: wrap;
+            width: 60px;
+        }
+        .three-l{
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            padding: 20px;
+    
+            width: 120px;
+            height: 120px;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        
+        
+        
+        <div class="upper">
+            <div class="one-u">
+                <!-- <div class="red"> -->
+                    <div class="white"></div>
+                <!-- </div> -->
+            </div>
+            <div class="two-u">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box green"></div>
+                <div class="box green" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box green" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box green"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box green"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box green"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box green"></div>
+                <div class="box"></div>
+            </div>
+            <div class="three-u">
+                <!-- <div class="green"> -->
+                    <div class="white"></div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="one-m">
+                <div class="box"></div>
+                <div class="box red" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box red"></div>
+                <div class="box red"></div>
+                <div class="box red"></div>
+                <div class="box red"></div>
+                <div class="box red"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box red" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="two-m"></div>
+            <div class="three-m">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box yellow" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box yellow"></div>
+                <div class="box yellow"></div>
+                <div class="box yellow"></div>
+                <div class="box yellow"></div>
+                <div class="box yellow"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box yellow" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="lower">
+            <div class="one-l">
+                <div class="white"></div>
+            </div>
+            <div class="two-l">
+                <div class="box"></div>
+                <div class="box blue"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box blue"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box blue"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box blue"></div>
+                <div class="box blue" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box blue" style="display: flex; align-items: center; justify-content: center;">&#x2605;</div>
+                <div class="box blue"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div></div>
+            <div class="three-l">
+                <div class="white"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
