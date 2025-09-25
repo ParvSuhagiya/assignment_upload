@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(25, 25, 25);
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    width: 20vw;
+    height: 100%;
+
+    background-color: rgb(36, 36, 36);
+}
+
+.right{
+    width: 90vw;
+    height: 100%;
+}
+
+.line{
+    background-color: rgb(74, 74, 74);
+    
+    width: 90%;
+    height: 2px;
+
+    margin: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line-right{
+    width: 98%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+
+    background-color: rgb(43, 43, 43);
+    
+}
+
+.upper-logo{
+    display: flex;
+    gap: 30px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.upper{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.middle{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.box{
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box:hover{
+    background-color: rgb(57, 57, 57);
+}
+
+.sub{
+    margin-left: 20px;
+
+    font-weight: 700;
+
+    font-size: 16px;
+}
+
+.channel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 10px;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.channel:hover{
+    background-color: rgb(88, 88, 88);
+}
+
+.search{
+    border: 1px solid rgb(59, 59, 59);
+
+    width: 60%;
+
+    margin: 10px 10px 20px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text{
+    align-self: center;
+
+    padding: 10px;
+}
+
+.search-icon{
+    width: 8%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+}
+
+.upper-r{
+    display: flex;
+
+    align-items: center;
+}
+
+.other{
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+
+    margin-left: 16%;
+}
+
+.catagories{
+    display: flex;
+    gap: 10px;
+
+    margin-left: 40px;
+
+    margin-top: 10px;
+}
+
+.catagories-box{
+    padding: 5px 20px;
+
+    height: 20px;
+    
+    border-radius: 20px;
+
+    background-color: rgb(79, 79, 79);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catagories-box:hover{
+    background-color: white;
+    color: black;
+
+    font-weight: 700;
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-box{
+    width: 242px;
+
+    margin: 20px;
+}
