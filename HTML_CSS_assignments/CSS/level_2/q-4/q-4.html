@@ -32,6 +32,14 @@
             background-color: white;
             width: 95%;
             height: 95%;
+            
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+            padding: 10px;
         }
         .three-u{
             background-color: green;
@@ -81,6 +89,11 @@
             width: 60px;
             height: 60px;
             /* border:  1px solid; */
+
+            border-left: 30px solid red;
+            border-top: 30px solid green;
+            border-right: 30px solid yellow;
+            border-bottom: 30px solid blue;
         }
         .three-m{
             display: flex;
@@ -112,7 +125,7 @@
             width: 60px;
         }
         .three-l{
-            background-color: yellow;
+            background-color: rgb(255, 213, 0);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -132,7 +145,25 @@
             background-color: blue;
         }
         .yellow{
-            background-color: yellow;
+            background-color: rgb(255, 213, 0);
+        }
+        .circle{
+            width: 20px;
+            height: 20px;
+
+            border-radius: 50%;
+        }
+        .red-border{
+            border: 2px solid red;
+        }
+        .green-border{
+            border: 2px solid green;
+        }
+        .blue-border{
+            border: 2px solid blue;
+        }
+        .yellow-border{
+            border: 2px solid rgb(255, 213, 0);
         }
     </style>
 </head>
@@ -143,9 +174,12 @@
         
         <div class="upper">
             <div class="one-u">
-                <!-- <div class="red"> -->
-                    <div class="white"></div>
-                <!-- </div> -->
+                    <div class="white">
+                        <div class="circle red-border"></div>
+                        <div class="circle red-border"></div>
+                        <div class="circle red-border"></div>
+                        <div class="circle red-border"></div>
+                    </div>
             </div>
             <div class="two-u">
                 <div class="box"></div>
@@ -168,9 +202,12 @@
                 <div class="box"></div>
             </div>
             <div class="three-u">
-                <!-- <div class="green"> -->
-                    <div class="white"></div>
-                <!-- </div> -->
+                    <div class="white ">
+                        <div class="circle green-border"></div>
+                        <div class="circle green-border"></div>
+                        <div class="circle green-border"></div>
+                        <div class="circle green-border"></div>
+                    </div>
             </div>
         </div>
 
@@ -220,7 +257,12 @@
 
         <div class="lower">
             <div class="one-l">
-                <div class="white"></div>
+                <div class="white">
+                    <div class="circle blue-border"></div>
+                    <div class="circle blue-border"></div>
+                    <div class="circle blue-border"></div>
+                    <div class="circle blue-border"></div>
+                </div>
             </div>
             <div class="two-l">
                 <div class="box"></div>
@@ -242,7 +284,12 @@
                 <div class="box"></div>
                 <div class="box"></div></div>
             <div class="three-l">
-                <div class="white"></div>
+                <div class="white">
+                    <div class="circle yellow-border"></div>
+                    <div class="circle yellow-border"></div>
+                    <div class="circle yellow-border"></div>
+                    <div class="circle yellow-border"></div>
+                </div>
             </div>
         </div>
 

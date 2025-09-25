@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+            color: white;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: black;
+        }
+        main{
+            background-image: url("stadium.jpg");
+            width: 100vw;
+            height: 100vh;
+
+            background-size: contain;
+            /* opacity: 0.5; */
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            gap: 20px;
+        }
+        .super-over{
+            text-align: center;
+
+            font-size: 50px;
+            font-weight: 900;
+
+            padding-top: 50px;
+            margin-bottom: 50px;
+        }
+        .box{
+            width: 20%;
+            height: 20%;
+            text-align: center;
+
+            background-color: blue;
+            border-radius: 10px;
+
+            font-weight: 600;
+            font-size: 30px;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .circle{
+            width: 20px;
+            height: 20px;
+
+            background-color: white;
+
+            border-radius: 50%;
+
+            color: black;
+
+            font-size: 15px;
+            font-weight: 800;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .over{
+            display: flex;
+            gap: 5px;
+        }
+        .country{
+            padding: 20px;
+            font-size: 40px;
+        }
+        .run{
+            padding: 10px;
+        }
+        .one{
+            background-color: rgb(101, 101, 255);
+        }
+        .two{
+            background-color: rgb(94, 162, 92);
+        }
+        .buttons{
+            text-align: center;
+
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="super-over">Super Over</div>
+        <div class="container">
+            <div class="box one">
+                <div class="country">
+                    IND
+                </div>
+                <div class="over">
+                    <div class="circle">4</div>
+                    <div class="circle">3</div>
+                    <div class="circle">2</div>
+                    <div class="circle">6</div>
+                    <div class="circle">6</div>
+                    <div class="circle">6</div>
+                </div>
+                <div class="run">27/0</div>
+            </div>
+            <div class="box two">
+                <div class="country">
+                    PAK
+                </div>
+                <div class="over">
+                    <div class="circle">4</div>
+                    <div class="circle">3</div>
+                    <div class="circle">0</div>
+                    <div class="circle">6</div>
+                    <div class="circle">6</div>
+                    <div class="circle">6</div>
+                </div>
+                <div class="run">14/0</div>
+            </div>
+
+            
+        </div>
+        <div class="buttons">
+            <div class="bat"><img src="Screenshot 2025-09-24 172522.png" alt=""></div>
+            <div class="reverse"><img src="Screenshot 2025-09-24 172557.png" alt=""></div>
+        </div>
+    </main>
+</body>
+</html>
