@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #131921;
+    
+    color: white;
+}
+
+.address{
+    display: flex;   
+}
+
+.address > img{
+    width: 30px;    
+}
+
+.hello{
+    font-size: 12px;
+
+    color: rgb(203, 203, 203);
+}
+
+.select{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+
+    width: 40vw;
+    height: 36px;
+
+    background-color: white;
+
+    border-radius: 5px;
+}
+
+.search > .all{
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-right: 1px solid rgb(199, 199, 199);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    padding: 10px;
+
+    color: gray;
+
+
+}
+
+.search > .search-icon{
+    background-color: #febd69;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    padding: 10px 20px;
+
+    font-weight: 600;
+}
+
+.search > .search-icon > img {
+    width: 15px;
+}
+
+.hello-sign-in{
+    font-size: 12px;
+    color: rgb(203, 203, 203);
+}
+
+.account-lists{
+    font-weight: 600;
+}
+
+.cart{
+    display: flex;
+
+    align-items: baseline;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    width: 100vw;
+    height: 48px;
+
+    background-color: #232f3e;
+}
+
+.main-box{
+    margin-left: 10px;
+
+    display: flex;
+    gap: 15px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    color: white;
+
+    font-size: 10px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+
+    transition: all 0.3s ease-out;
+}
+
+.box > img{
+    height: 10px;
+}
+
+.prime-day{
+    width: 140px;
+
+    position: relative;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: white;
+
+    margin: 5px;
+    padding: 0px 10px;
+
+    /* background-color: gray; */
+}
+
+.prime-day > .smile{
+    position: absolute;
+
+    top: 18px;
+    left: 27px;
+}
+
+.prime-day > .smile > img{
+    width: 48px;
+}
+
+.prime-day > .date{
+    position: absolute;
+    
+    bottom: 0px;
+    left: 70px;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+
+}
+
+.prime-day:hover{
+    transform: scale(1.1);
+
+    background-color: rgb(74, 117, 226);
+    /* background-color: ; */
+
+    border-radius: 7px;
+
+    transition: all 0.3s ease-out;
+}

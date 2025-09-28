@@ -83,6 +83,8 @@ body{
 
 .box:hover{
     background-color: rgb(57, 57, 57);
+
+    transition: all 0.3s ease-out;
 }
 
 .sub{
@@ -110,6 +112,7 @@ body{
 
 .channel:hover{
     background-color: rgb(88, 88, 88);
+    transition: all 0.3s ease-out;
 }
 
 .search{
@@ -184,6 +187,8 @@ body{
     color: black;
 
     font-weight: 700;
+
+    transition: all 0.3s ease-out;
 }
 
 .videos{
