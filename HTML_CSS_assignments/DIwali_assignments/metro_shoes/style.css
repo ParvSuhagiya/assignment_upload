@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+
+    height: 2.5rem;
+
+    background-color: black;
+    color: white;
+}
+
+.welcome > .welcome_to_metro_shoes{
+    font-size: 1rem;
+}
+
+.welcome > .enjoy{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.welcome > .store_location{
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+.nav > .mid > ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav > .mid > ul > li{
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav > .third{
+    display: flex;
+    gap: 15px;
+}
+
+.nav > .third > img{
+    width: 18px;
+    cursor: pointer;
+}
+
+.search_bar{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+
+    color: #a2a2a2;
+
+    background-color: #efefef;
+}
+
+.imgOne{
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgOne > img{
+    width: 95%;
+}
+
+.imgTwoThree{
+    width: 100vw;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.imgTwoThree > img{
+    width: 47%;
+}
+
+.companies{
+
+    background-color: #ececec;
+
+    
+
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.compCircle{
+    width: 100px;
+    height: 100px;
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compCircle > img{
+    width: 80px;
+}
+
+.companies-parent{
+    width: 100vw;
+
+    height: 15vw;
+
+    background-color: #ececec;
+
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 23px;
+
+    text-align: center;
+
+    padding-top: 10px;
+}
+
+.threeCards{
+    width: 100vw;
+
+    display: flex;
+
+    padding: 20px;
+    gap: 30px;
+}
+.tc{
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-of-the-month{
+    width: 100vw;
+
+    margin-top: 20px;       
+}
+
+    .story-of-the-month > img{
+    width: 100%;
+}
+
+.creative-spotlights{
+    width: 100vw;
+
+    margin-top: 20px;       
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creative-spotlights > img{
+    width: 17%;
+}
+
+.view-gallery{
+    width: 120px;
+    height: 30px;
+
+    background-color: #af282d;
+
+    border-radius: 3px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    margin: auto;
+
+    margin-top: 30px;
+
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-title{
+    font-size: 25px;
+
+    text-align: center;
+
+    padding-top: 10px;
+}
+
+.para-cont{
+    width: 90vw;
+    height: 200px;
+
+    margin: auto;
+    overflow-y: auto;
+}
+
+.metro-footer-section {
+  background-color: #f6f6f6;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px;
+}
+
+.metro-footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.metro-footer-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.metro-footer-desc {
+  color: #666;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.metro-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.metro-footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.payment-section h4,
+.social-section h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.payment-icons img {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.social-icons i {
+  font-size: 16px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: #333;
+}
+
+.footer-end {
+  text-align: center;
+  font-size: 10px;
+  color: #555;
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.metro-footer-section{
+    margin-top: 30px;
+}
+
+.dropdown-men-main {
+  display: none;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-top: 2px solid #b91c1c;
+  padding: 25px 40px;
+  width: 80vw;
+  max-width: 1000px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.mid > ul > li:hover .dropdown-men-main{
+    display: flex;
+
+    position: absolute;
+    top: 60px;
+    left: 10vw;
+}
+
+.dropdown-men-occasion,
+.dropdown-men-shoetype,
+.dropdown-men-brands {
+  width: 30%;
+}
+
+.dropdown-men-occasion-title,
+.dropdown-men-shoetype-title,
+.dropdown-men-brands-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a1172e;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #a1172e;
+  padding-bottom: 5px;
+}
+
+.dropdown-men-occasion-list,
+.dropdown-men-shoetype-list,
+.dropdown-men-brands-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-men-occasion-list li,
+.dropdown-men-shoetype-list li,
+.dropdown-men-brands-list li {
+  font-size: 10px;
+  color: #333;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.dropdown-men-occasion-list li:hover {
+  color: #c41e3a;
+  font-weight: 500;
+}
+
+.dropdown-men-shoetype-list li:hover {
+  color: #c41e3a;
+  text-decoration: underline;
+}
+
+.dropdown-men-brands-list li:hover {
+  color: #c41e3a;
+  font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+  .threeCards{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left{
+    display: none;
+  }
+  .third{
+    display: none;
+  }
+  .third > img{
+    display: none;
+  }
+  .search_bar{
+    display: none;
+  }
+  .search_bar > img{
+    display: none;
+  }
+
+  .nav{
+    overflow-x: auto;
+  }
+}
+
+.men-occasion-casual > a{
+    text-decoration: none;
+    color: black;
+}

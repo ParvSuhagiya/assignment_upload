@@ -75,6 +75,7 @@
 
 .discover{
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 50px;
 }
 
@@ -137,4 +138,16 @@
     height: 300px;
 
     /* background-color: yellow; */
+}
+
+@media screen and (max-width: 576px){
+    .card{
+        width: 35vw;
+    }
+    .game-card{
+        width: 40vw;
+    }
+    .discover{
+        flex-wrap: wrap;
+    }
 }
