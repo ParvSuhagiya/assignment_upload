@@ -1,0 +1,137 @@
+
+html{
+    font-size: 10px;
+}
+
+/* Dream11 Support Page */
+.support-section {
+  background-color: #f8f8fb;
+  font-family: "Poppins", sans-serif;
+}
+
+.support-container {
+  max-width: 90rem;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.support-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 0.1rem solid #eee;
+
+  height: 5vh;
+}
+
+.support-logo {
+  width: 2.5rem;
+}
+
+.support-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* Cards Section */
+.support-card {
+  padding: 2rem 3rem;
+  background-color: #f3f3ff;
+
+  height: 75.45vh;
+}
+
+.support-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
+
+  height: 5rem;
+}
+
+.support-icon {
+  color: #d7232c;
+  font-size: 2rem;
+  width: 3rem;
+}
+.support-text {
+  margin-left: 3rem;
+}
+
+.support-text h3 {
+  font-size: 1.6rem;
+  color: #1c1c1c;
+  margin-bottom: 0.3rem;
+}
+
+.support-text p {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+.support-arrow i {
+  color: #aaa;
+  font-size: 1.6rem;
+}
+
+/* Footer */
+.support-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: #fff;
+  border-top: 0.1rem solid #eee;
+
+  height: 5vh;
+}
+
+.support-footer p {
+  font-size: 1.5rem;
+  color: #1c1c1c;
+}
+
+.support-btn {
+  background-color: #d7232c;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-container {
+    margin: 2rem;
+  }
+
+  .support-header{
+    justify-content: center;
+  }
+
+  .support-item {
+    flex-direction: row;
+    align-items: center;
+
+    width: 90%;
+    height: auto;
+  }
+
+  .support-footer {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+
+}

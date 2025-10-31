@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+
+    font-size: 8px;
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+
+    z-index: 10;
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2rem;
+
+    background-color: rgba(255, 255, 255);
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav .left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav .logo img{
+    width: 105px;
+    height: auto;
+
+    cursor: pointer;
+}
+
+.nav .nav_elements ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+.nav .nav_elements ul li{
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.nav .nav_elements ul a{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav .right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav .right .search_bar{
+    width: 250px; 
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 0 1rem;
+    border: 0.5px solid rgba(128, 128, 128, 0.309);
+    border-radius: 5px;
+}
+
+.nav .right .search_bar input{
+    width: 120%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    font-size: 1.4rem;
+}
+
+.nav .right .login{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    text-align: center;
+
+    padding: 1.0rem 1.4rem;
+    border-radius: 5px;
+
+    background-color: #04ad83;
+    color: white;
+
+    cursor: pointer;
+}
+
+.no_1_stock_brocker_logo{
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+.no_1_stock_brocker_logo > img{
+    width: 40rem;
+    
+}
+
+.effortless{
+    font-size: 8rem;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: #44475b;
+}
+
+.invest_in_stocks{
+    font-size: 2rem;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: #44475b;
+}
+
+
+.get_started{
+    width: 11.2rem;
+    
+    margin: auto;
+    margin-top: 3rem;
+
+    padding: 1rem 1.5rem;
+
+    border-radius: 5px;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    color: white;
+
+    background-color: #04ad83;
+}
+
+.main_banner > img{
+    width: 100%;
+}
+
+.main_banner{
+    padding: 50px;
+
+    width: 80vw;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.power_packed_container{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+.img img{
+    width: 10rem;
+}
+
+.text_after_image{
+    width: 50%;
+
+    font-size: 7rem;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: #44475b;
+}
+
+.card_container{
+    width: 90vw;
+    
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    height: 30vw;
+
+    margin-top: 5rem;
+    
+    border-radius: 20px;
+    
+    background-color: #f8f8f8;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card_left{
+    padding: 2rem;
+}
+
+.card_left > h1{
+
+    margin-top: 5rem;
+
+    font-size: 5rem;
+    font-weight: 700;
+
+    color: #44475b;
+}
+
+.card_left > p{
+    font-size: 2.8rem;
+
+    color: #44475b75;
+}
+
+.card_left .try_it_out{
+    font-size: 1.2rem;
+
+    width: 100px;
+
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+
+    border: 0.5px solid #44475b;
+    border-radius: 50px;
+
+    color: #44475b;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.try_it_out:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .16);
+
+    transition: 0.2s all ease-out;
+}
+
+.card_right{
+    overflow: hidden;
+}
+.card_right img{
+    position: relative;
+
+    width: 450px;
+
+    top: -60px;
+}
+
+#laptop_image{
+    position: relative;
+    
+    width: 450px;
+    
+    top: 50px;
+}
+
+.black_container{
+    width: 100vw;
+    height: 120vh;
+
+    background:  url("https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/darkZeroBg.43dd06da.svg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 24%;
+}
+
+.zero{
+    color: white;
+    text-align: center;
+
+    font-size: 8rem;
+    font-weight: 600;
+    
+}
+
+.account{
+    color: white;
+    text-align: center;
+    
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.secure_your_money_container{
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secure_your_money_text{
+    font-size: 5rem;
+    font-weight: 600;
+
+    color: #44475b;
+}
+
+
+
+.upper img{
+    width: 5rem;
+    
+}

@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+
+.header_container{
+    width: 100%;
+    height: 80vh;
+    background-color: red;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    background: url("https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/bannerDesktopWebpUrlSunset.webp");
+    background: url("https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/home-page-desktop-bg-sunset.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo{
+    width: 150px;
+    height: auto;
+}
+
+.image img{
+    width: 80vw;
+    height: auto;
+
+    margin-left: 10vw;
+    margin-right: 10vh;
+}
+
+.download_container{
+    width: 80%;
+    height: 80px;
+
+    border-radius: 10px;
+    background-color: white;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download_container .left{
+    color: gray;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    margin-left: 20px;
+}
+
+.Dream11_red{
+    color: rgb(225 0 0);
+                
+    /* font-weight: bold; */
+}
+
+.download_container .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.download_container .right img{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.main{
+    background-color: rgb(240 243 247);
+
+    width: 100vw;
+    height: 30vw;
+
+    position: relative;
+    z-index: -1;
+
+    padding-top: 10vh;
+}
+
+.main h2{
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    color: black;
+    font-size: 2.2rem;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.main h4{
+    margin-bottom: 2rem;
+
+    color: gray;
+    font-size: 1.2rem;
+
+    text-align: center;
+}
+
+.card_container{
+    width: 90%;
+    height: auto;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card_container .card{
+    width: 33rem;
+    height: 10rem;
+
+    margin-top: 5rem;
+
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 2rem;
+}
+
+.card .num{
+    font-size: 5rem;
+    font-weight: 900;
+
+    color: red;
+}
+
+.card .text{
+    height: 4rem;
+}
+
+.card .title{
+    font-size: 1.6rem;
+
+    color: black;
+    font-weight: 700;
+}
+.card .p{
+    font-size: 1.2rem;
+
+    color: gray;
+    font-weight: 500;
+
+}
+
+.card:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s all ease-in-out;
+}
+
+.after_main{
+    width: 100vw;
+    height: 20vh;
+
+    background: url("https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/app-rating-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.after_main .biggest_sport_platform{
+
+    margin-top: 2rem;
+
+    font-size: 2rem;
+    font-weight: 800;
+
+    text-align: center;
+}
+
+.after_main .app_rating_box{
+    width: 60%;
+    height: 7rem;
+
+    margin: auto;
+    margin-top: 1rem;
+
+    font-size: 1.8rem;
+
+    border-radius: 15px;
+    border: 0.5px solid lightgray;
+    background-color: rgb(248 251 255 );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 2rem;
+}
+
+.app_rating{
+    font-weight: 600;
+}
+.rating{
+    font-weight: 700;
+}
+
+/* Dream11 Footer Clone */
+.dream-footer {
+  background-color: #0b111a;
+  color: #cfd3d8;
+  padding: 4rem 8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+/* Left Side */
+.footer-left {
+  flex: 1;
+  min-width: 25rem;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-logo img{
+    width: 170px;
+    height: auto;
+}
+
+.footer-logo-img {
+  width: 3rem;
+}
+
+.footer-logo-text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 1.2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #cfd3d8;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* Right Side */
+.footer-right {
+  flex: 1;
+  min-width: 25rem;
+}
+
+.footer-heading {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.social-icons i {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #fff;
+}
+
+.footer-address-text {
+  line-height: 2.2rem;
+  font-size: 1.4rem;
+  color: #cfd3d8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  html {
+    font-size: 9px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+
+  .after_main{
+    margin-top: 60vh;
+  }
+
+  .image img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .download_container .right {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .after_main {
+    background-size: cover;
+    padding: 2rem;
+  }
+
+  .app_rating_box {
+    flex-direction: column;
+    font-size: 1.6rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}

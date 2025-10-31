@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+
+    font-size: 8px;
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2rem;
+
+    background-color: rgba(255, 255, 255);
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav .left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav .logo img{
+    width: 105px;
+    height: auto;
+
+    cursor: pointer;
+}
+
+.nav .nav_elements ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+.nav .nav_elements ul li{
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.nav .nav_elements ul a{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav .right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav .right .search_bar{
+    width: 250px; 
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 0 1rem;
+    border: 0.5px solid rgba(128, 128, 128, 0.309);
+    border-radius: 5px;
+}
+
+.nav .right .search_bar input{
+    width: 120%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    font-size: 1.4rem;
+}
+
+.nav .right .login{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    text-align: center;
+
+    padding: 1.0rem 1.4rem;
+    border-radius: 5px;
+
+    background-color: #04ad83;
+    color: white;
+
+    cursor: pointer;
+}
+
+.groww_your_wealth{
+    font-size: 8.4rem;
+    font-weight: 650;
+
+    margin-top: 10rem;
+
+    color: #4a4a4a;
+
+    text-align: center;
+}
+.built_for_a_growwing_india{
+    font-size: 2.4rem;
+    font-weight: 600;
+
+    margin-top: 2rem;
+    
+    color: gray;
+    
+    text-align: center;
+}
+.get_started{
+    width: 11.2rem;
+    
+    margin: auto;
+    margin-top: 3rem;
+
+    padding: 1rem 1.5rem;
+
+    border-radius: 5px;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    color: white;
+
+    background-color: #04ad83;
+}
+
+.main_banner > img{
+    width: 80vw;
+    height: auto;
+
+    margin-left: 8vw;
+    margin-right: 10vw;
+}
+
+.no_1_stock_brocker{
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.no_1_stock_brocker > img{
+    width: 40rem;
+}
+
+.mobile_main_container{
+    width: 95vw;
+
+    margin: auto;
+    margin-top: 10rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indian_market_building_image img{
+    width: 15rem;
+}
+
+.indian_markets_at_your{
+    width: 65%;
+
+    font-size: 6rem;
+    font-weight: 700;
+    
+    color: #44475b;
+}
+
+.long_term_or_short_term{
+    width: 55%;
+
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin-top: 2rem;
+
+    color: #7c7e8c;
+}
+
+.table_boxes{
+    width: 40vw;
+
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.table_box{
+    width: 100%;
+    height: 8rem;
+
+    border: 0.5px solid rgba(128, 128, 128, 0.139);
+    border-radius: 15px;
+
+    padding: 2rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table_box_left{
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+.table_box_left > img{
+    width: 4rem;
+}
+
+.table_box_left > .text{
+    font-size: 1.8rem;
+
+font-weight: 600;
+}
+
+.table_box_right > img{
+    width: 2.5rem;
+}
+
+.mobile_main_right > img{
+    width: 30vw;
+}
+
+.finance_simplified{
+    width: 50vw;
+
+    margin-left: 25vw;
+    margin-top: 3rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_after_education_logo{
+    font-size: 7.5rem;
+    font-weight: 700;
+    color: #44475b;
+
+    text-align: center;
+
+    margin: auto;
+}
+
+.education_logo > img{
+    width: 10rem;
+}
+
+.two_buttons{
+    width: 100vw;
+
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+}
+
+.button{
+    padding: 1rem 2.5rem;
+
+    color: #44475b;
+
+    font-size: 1.8rem;
+
+    border: 0.5px solid #44475b;
+    border-radius: 50px;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+
+
+.footer_container {
+  background-color: #f7f8fa;
+  padding: 4rem 10rem;
+  margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.footer_left {
+  flex: 1;
+  min-width: 25rem;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer_logo img {
+  width: 10rem;
+}
+
+.footer_logo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.footer_address {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  line-height: 2.2rem;
+  color: #555;
+}
+
+.footer_contact {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #000;
+  padding-bottom: 0.2rem;
+}
+
+.footer_social {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.footer_apps img {
+  width: 20px;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.footer_links {
+  display: flex;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
+.footer_col h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer_col a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
+.footer_col a:hover {
+  color: #000;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1rem solid #ddd;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: #777;
+}
