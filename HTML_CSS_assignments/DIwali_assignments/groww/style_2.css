@@ -193,7 +193,7 @@ html{
 .text_after_image{
     width: 50%;
 
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 700;
 
     text-align: center;
@@ -337,9 +337,440 @@ html{
     color: #44475b;
 }
 
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    width: 40vw;
+
+    text-align: center;
+}
 
 .upper img{
-    width: 5rem;
+    width: 7rem;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+
+    margin-top: 5rem;
+}
+
+.lower_box{
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.lower_box h3{
+    font-size: 2rem;
+
+    color: #44475b;
+}
+
+.lower_box p{
+    font-size: 1.2rem;
     
+    color: #44475b;
+}
+
+.finance_simplified{
+    width: 50vw;
+
+    margin-left: 25vw;
+    margin-top: 3rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_after_education_logo{
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #44475b;
+
+    text-align: center;
+
+    margin: auto;
+}
+
+.education_logo > img{
+    width: 10rem;
+}
+
+.two_buttons{
+    width: 100vw;
+
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+}
+
+.button{
+    padding: 1rem 2.5rem;
+
+    color: #44475b;
+
+    font-size: 1.8rem;
+
+    border: 0.5px solid #44475b;
+    border-radius: 50px;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.what_india{
+    margin-top: 8rem;
+    margin-left: 4rem;
+
+    width: 40VW;
+
+    font-size: 8rem;
+    font-weight: 650;
+
+    color: #44475b;
+}
+
+.review_container{
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    gap: 3rem;
+}
+
+.review_box{
+    width: 300px;
+    height: 200px;
+
+    padding: 2rem;
+}
+
+.review_box p{
+    font-size: 1.6rem;
+
+    color: #44475b;
+}
+
+.p_photo{
+    border-radius: 50%;
+
+    margin-top: 1rem;
+
+    width: 25px;
+    height: 25px;
+}
+.p_text{
+    font-size: 1.4rem;
+
+    margin-top: 1rem;
+
+    color: #44475b;
+}
+
+
+
+
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.black_container_2{
+    background: url("https://assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/openAccountDarkBg.2a33e937.svg");
+    background-size: cover;
+
+    width: 100vw;
+    height: 120vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 24%;
+}
+
+.continue_exploring_text{
+    text-align: center;
+
+    margin-top: 3rem;
+
+    font-size: 3rem;
+    font-weight: 600;
+
+    color: #44475b;
+}
+
+.continue_exploring_flex_container{
+    width: 90vw;
+    height: 50vh;
+
+    margin: auto;
+    margin-top: 4rem;
+
+    display: flex;
+
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.continue_exploring_flex_box{
+    width: 350px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2rem;
+
+    border: 0.5px solid #44475b5c;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.continue_exploring_flex_box:hover{
+    box-shadow: 0 4px 8px 0 hsla(-1, 0%, 7%, 0.3);
+    background-color: #f8f8f8;
+    transition: all .3s;
+    scale: 1.02;
+}
+
+.continue_left{
+    width: 150px;
+
+    font-size: 2.8rem;
+    font-weight: 600;
+
+    color: #44475b;
+}
+
+.continue_right > img{
+    width: 50px;
+
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.get_started_container{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get_started_question_mark img{
+    width: 50px;
+
+    margin-bottom: 4rem;
+}
+
+.get_started_container .text{
+    font-size: 6rem;
+    font-weight: 700;
+
+    margin-bottom: 2rem;
+
+    color: #44475b;
+}
+
+.get_started_container .questions{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    color: #44475b86;
+}
+
+.question_list{
+    width: 80vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.question_box{
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 2rem 3rem;
+
+    border-bottom: 0.5px solid #44475b48;
+}
+
+.question_left{
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    color: #44475b;
+}
+
+.question_right img{
+    width: 20px;
+}
+
+.images_container{
+    width: 80vw;
+
+    margin: auto;
+    margin-top: 8rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_box{
+    width: 25vw;
+    height: 20vw;
+}
+
+.images_box .image img{
+    width: 100%;
+    height: 150px;
+
+    border-radius: 15px;
+}
+
+.images_box .image_text{
+
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    color: #44475b;
+}
+
+.images_box .image img:hover{
+    box-shadow: 0 4px 8px 0 hsla(-1, 0%, 7%, 0.3);
+    background-color: #f8f8f8;
+    scale: 1.1;
+    transition: all .3s;
+}
+
+.footer_container {
+  background-color: #f7f8fa;
+  padding: 4rem 10rem;
+  margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.footer_left {
+  flex: 1;
+  min-width: 25rem;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer_logo img {
+  width: 10rem;
+}
+
+.footer_logo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.footer_address {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  line-height: 2.2rem;
+  color: #555;
+}
+
+.footer_contact {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #000;
+  padding-bottom: 0.2rem;
+}
+
+.footer_social {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.footer_apps img {
+  width: 20px;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.footer_links {
+  display: flex;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
+.footer_col h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer_col a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
+.footer_col a:hover {
+  color: #000;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1rem solid #ddd;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  color: #777;
 }
